@@ -22,6 +22,7 @@ def main():
     
     
     #side bar
+    rad = st.sidebar.radio('Navigaton',['Home','About me'])
     st.sidebar.subheader('Connect with me: https://github.com/Reyso/')
     
     #Inputs
