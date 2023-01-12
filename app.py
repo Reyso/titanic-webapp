@@ -22,11 +22,11 @@ def main():
     
     
     #side bar
-    st.sidebar.write('Connect with me: https://github.com/Reyso/')
+    st.sidebar.subheader('Connect with me: https://github.com/Reyso/')
     
     #Inputs
     passenger_name = st.text_input('Insira seu nome','Rose')
-    passenger_class = st.select_slider("Passenger Class", data["Pclass"].unique(), 2)
+    passenger_class = st.select_slider("Classe do passageiro", data["Pclass"].unique(), 2)
     sex = st.selectbox('Sexo', ['female', 'male'])
     age = int(st.slider('Idade:', 0, 100, 20))
     sibsp = st.slider('Quantidade de irmãos/conjudes abordo:',0,10,2)
