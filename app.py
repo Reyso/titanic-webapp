@@ -40,7 +40,7 @@ def main():
     sibsp = st.slider('Quantidade de irmãos/conjudes abordo:',0,10,2)
     parch = st.slider('Quantidade de Pais/Crianças abordo:',0,10,2)
     fare = st.number_input("Tarifa")
-    embarked = st.selectbox("Embarque: ", data["Embarked"].unique())
+    embarked = st.selectbox("Cidade do Embarque: ", data["Embarked"].unique())
     st.write(' C = Cherbourg, Q = Queenstown, S = Southampton')
 
     
