@@ -87,13 +87,9 @@ def main():
     
  def about_me():
     st.subheader('I'm a data scientist in evolution rocket')
-    
     st.write('I’m currently learning Scikit learn, Pyspark , Flask API, Hadoop, Amazon Web Services')
-
     st.write('I’m looking to collaborate on data science projetcs an AI')
-
     st.write('All of my projects are available at https://github.com/Reyso')
-
     st.write('How to reach me reyso.ct@gmail.com')
 
 
