@@ -24,7 +24,11 @@ def main():
     #side bar
     rad = st.sidebar.radio('Navigaton',['Home','About me'])
     if rad == 'About me':
-        return about_me()
+        st.subheader('I'm a data scientist in evolution rocket')
+        st.write('I’m currently learning Scikit learn, Pyspark , Flask API, Hadoop, Amazon Web Services')
+        st.write('I’m looking to collaborate on data science projetcs an AI')
+        st.write('All of my projects are available at https://github.com/Reyso')
+        st.write('How to reach me reyso.ct@gmail.com')
         
     st.sidebar.subheader('Connect with me: https://github.com/Reyso/')
     
@@ -84,13 +88,6 @@ def main():
             st.error('morremo 😰')
     
     
-    
- def about_me():
-    st.subheader('I'm a data scientist in evolution rocket')
-    st.write('I’m currently learning Scikit learn, Pyspark , Flask API, Hadoop, Amazon Web Services')
-    st.write('I’m looking to collaborate on data science projetcs an AI')
-    st.write('All of my projects are available at https://github.com/Reyso')
-    st.write('How to reach me reyso.ct@gmail.com')
 
 
 # Run  no app
