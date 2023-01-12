@@ -75,7 +75,7 @@ def main():
             with st.spinner('Só um momento...'):
                 time.sleep(5)
             st.balloons()
-            st.success('Sobreviviemo familuia!')
+            st.success('VOCÊ SOBREVIVEU🎉! Sua história poderia virar um filme!')
             
             
     
@@ -85,7 +85,7 @@ def main():
                 st.write(passenger_name)
                 time.sleep(5)
             st.snow()
-            st.error('morremo 😰')
+            st.error('morremo 😰, talvez tivesse lugar pra você em alguma prancha')
     
     
 
