@@ -24,11 +24,11 @@ def main():
     #side bar
     rad = st.sidebar.radio('Navigaton',['Home','About me'])
     if rad == 'About me':
-        st.sidebar.header("🌱 - I'm a data scientist in evolution 🚀")
-        st.sidebar.write('✍️ -I’m currently learning Scikit learn, Pyspark , Flask API, Hadoop, Amazon Web Services')
-        st.sidebar.write('🤝 -I’m looking to collaborate on data science projetcs an AI')
-        st.sidebar.write('All of my projects are available at https://github.com/Reyso')
-        st.sidebar.write('How to reach me reyso.ct@gmail.com')
+        st.sidebar.header("I'm a data scientist in evolution 🚀")
+        st.sidebar.write('🟢 -I’m currently learning Scikit learn, Pyspark , Flask API, Hadoop, Amazon Web Services')
+        st.sidebar.write('🟡 -I’m looking to collaborate on data science projetcs an AI')
+        st.sidebar.write('🔴 -All of my projects are available at https://github.com/Reyso')
+        st.sidebar.write('🔵 -How to reach me reyso.ct@gmail.com')
         
     st.sidebar.subheader('Connect with me: https://github.com/Reyso/')
     
