@@ -20,6 +20,10 @@ def main():
     st.subheader('Faça seu Teste!')
     st.write('Preencha todos os campos abaixo e veja qual seria sua chance de SOBREVIVER AO TITANIC')
     
+    
+    #side bar
+    st.sidebar.write('Connect with me: https://github.com/Reyso/')
+    
     #Inputs
     passenger_name = st.text_input('Insira seu nome','Rose')
     passenger_class = st.select_slider("Passenger Class", data["Pclass"].unique(), 2)
