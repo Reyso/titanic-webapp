@@ -9,7 +9,7 @@ import time
 model = joblib.load('clf-best.pickle')
 
 # Carregando dataset
-data = pd.read_csv("test.csv")
+data = pd.read_csv("train.csv")
 
 
 
