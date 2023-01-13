@@ -40,8 +40,16 @@ def main():
     sibsp = st.slider('Quantidade de irmãos/conjudes abordo:',0,10,2)
     parch = st.slider('Quantidade de Pais/Crianças abordo:',0,10,2)
     fare = st.number_input("Tarifa")
-    embarked = st.selectbox("Cidade do Embarque: ", data["Embarked"].unique())
-    st.write(' C = Cherbourg, Q = Queenstown, S = Southampton')
+    embarked = st.selectbox("Cidade do Embarque: ", ['Cherbourg','Queenstown','Southampton'])
+    
+    if embarked == 'Cherbourg':
+        embarked = 'C'
+    elif embarked == 'Queenstown':
+        embarked = 'Q'
+    else:
+        embarked = 'S'
+        
+    
 
     
         # Criando um dicionário para os dados de entrada
